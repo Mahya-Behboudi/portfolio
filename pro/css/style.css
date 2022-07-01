@@ -1,4 +1,4 @@
-$bgcolor: #dc3545;
+
 
 
 
@@ -11,7 +11,7 @@ $bgcolor: #dc3545;
 
 body{
     font-family: 'vazir';
-    direction: rtl;
+    direction: rtl !important;
     text-align: right;
 }
 
@@ -33,16 +33,10 @@ body{
     /* width: 100%; */
     height: 200px;
 }
-.icon-hover {
+.icon-hover,.contact-btn {
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -ms-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
 }
-.icon-hover:hover {
-    color: $bgcolor;
-}
-.contact-btn:hover{
-    background-color: $bgcolor;
-} 
