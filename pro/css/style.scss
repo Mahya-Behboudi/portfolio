@@ -1,9 +1,14 @@
+$bgcolor: #dc3545;
+
+
+
 @font-face {
     font-family: 'vazir';
     src: url('../fonts/Vazir.eot') format('eot');
     src : url('../fonts/Vazir.ttf') format('truetype'),
     url('../fonts/Vazir.woff') format('woff');
 }
+
 body{
     font-family: 'vazir';
     direction: rtl;
@@ -36,5 +41,8 @@ body{
     -o-transition: all 0.3s ease-in;
 }
 .icon-hover:hover {
-    color: #dc3545;
+    color: $bgcolor;
 }
+.contact-btn:hover{
+    background-color: $bgcolor;
+} 
